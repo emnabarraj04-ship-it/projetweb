@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contact</h1>
+</header>
+
+<section>
+
+    <p>
+        Si vous souhaitez me contacter, veuillez remplir le formulaire ci-dessous.
+    </p>
+
+    <form action="mailto:emnabarraj04@gmail.com" method="post" enctype="text/plain">
+
+        <div class="form-group">
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Ex : Mohamed" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Votre email :</label>
+            <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Ex : Proposition de projet" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Votre message :</label>
+            <textarea id="message" name="message" rows="6" placeholder="Écrivez votre message ici..." required></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit">Envoyer le message</button>
+        </div>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>Email : emnabarraj04@gmail.com</p>
+</footer>
+
+</body>
+</html>
